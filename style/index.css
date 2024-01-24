@@ -1,0 +1,217 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+  body{
+    font-family: 'Poppins', sans-serif;
+
+  }
+/* navbar style */
+header{
+text-align: center;}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+   
+
+}
+.header_title{
+    margin-left: 10rem;
+    font-size: 25px;
+}
+ul li{
+    list-style-type: none;
+    font-size:20px;
+    color: black;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+.nav_bar a{
+text-decoration: none;
+color: black;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 10rem;
+}
+
+/* navbar style */
+
+/* camera style */
+.cameras{
+background-color: aquamarine;
+    display: flex;
+    margin-top: 20px;
+    gap: 10rem;
+    background-color:white;
+    margin-top: 3rem;
+}
+.camera_details{
+    margin-left: 10rem;
+}
+.camera_image{
+    margin-right: 10rem;
+    background-color:whitesmoke;
+    border-radius: 50%;
+}
+.camera_image img{
+    height: 450px;
+}
+.camera_title{
+    font-size: 50px;
+    margin-bottom: -1rem;
+}
+.camera_description{
+    font-size: 22px;
+}
+.camera_button{
+    background-color: salmon;
+    font-size: 20px;
+    width: 33%;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    color: white;
+}
+/* camera style */
+
+
+/* companies style */
+.companies{
+    margin-top: 10rem;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+.line{
+    margin: 0rem 10rem;
+}
+.up{
+    margin-bottom: -8rem;
+    margin-top: 4rem;
+}
+.down{
+    margin-top: 2rem;
+}
+/* companies style */
+
+.collection_section{
+    margin-top: 6rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    background-color:white;
+    
+}
+
+
+.collection_section_title{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 4rem;
+}
+.collection{
+    text-align: left;
+    gap: 1rem;
+    background-color: whitesmoke;
+    border: 1rem solid white;
+    border-radius: 2rem;
+
+}
+.collection_title{
+    font-size: 28px;
+}
+.price{
+    font-size: 23px;
+    margin-top: -6px;
+}
+.fa-star{
+    color: gold;
+}
+.rating{
+    gap: 5px;
+}
+.description{
+    font-size: 18px;
+}
+.top_collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 2rem;
+}
+.collection_img{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.down_title{
+    text-align: right;
+    font-size: 22px;
+    color: deeppink;
+
+}
+
+/* gears style */
+
+.Gear_section{
+    margin-left:12rem;
+    margin-right: 12rem;
+    margin-top: 5rem;
+
+}
+.Gears{
+    display: flex;
+    justify-content:center;
+    gap: 5rem;
+}
+.gear_title{
+    font-size: 40px;
+}
+.gear_line{
+    font-size: 20px;
+}
+.gear_button{
+    font-size: 20px;
+    border: 2px solid white;
+    width: 20%;
+    padding: 0.5rem;
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* gear style */
+.footer{
+    background-color: navajowhite;
+    text-align: center;
+    padding: 3rem;
+
+}
+.footer_title{
+    font-size: 30px;
+}
+.copyright{
+    margin-top: -1rem;
+    font-size: 18px;
+}
+.fa-brands{
+    gap: 1rem;
+    color: chocolate;
+}
+footer{
+    margin-top: 4rem;
+}
